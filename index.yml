@@ -1,0 +1,202 @@
+head:
+  title: "Valeria Devans "
+  
+  output:
+  html_document:
+    css: "css/style.css"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hola, soy Valeria Devans"
+  subtitle: "Estudiante de Ingenieria Industrial"
+  image:
+    x: "img/showcase/ing.JPG"
+    _2x: "img/showcase/ing.JPG"
+  imageMobile:
+    x: "img/showcase/Ing.Industrial.JPG"
+    _2x: "img/showcase/Ing.Industrial.JPG"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Val"
+    URL: "mailto:devansvj8@gmail.com"
+
+  socialLinks:
+    
+    - icon: "instagram"
+      URL: "https://www.instagram.com/_eu_valuu"
+  social:
+    -  icon: "WhatsApp"
+       URL: "https://fab fa.me/573244347065" # Reemplaza con tu número de WhatsApp
+# about
+about:
+  enable: true
+  title: "SOBRE MÍ"
+  content: 
+    <p class="lead">
+    <strong>Mi nombre es Valeria Jishet Devans Castro, tengo 18 años y actualmente estoy en mi tercer semestre de Ingeniería Industrial en la Universidad del Magdalena. Desde muy joven he tenido una profunda curiosidad por cómo funciona el mundo que me rodea, lo que inicialmente me llevó a considerar la medicina como mi carrera profesional.
+    </p>
+    <p class="lead">
+    <strong>Me fascinaba la idea de ayudar directamente a las personas y contribuir al bienestar de la sociedad. Pero a medida que exploraba diferentes campos, descubrí mi pasión por la tecnología y la ingeniería, especialmente la inteligencia artificial y la programación.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Más sobre mí"
+    URL: "https://vdc-wq.github.io/Sm.github.io/"
+  image:
+    x: "img/who-am-i/Soy.jpg"
+    _2x: "img/who-am-i/Soy.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "HABILIDADES"
+  description: "Me considero una persona comprometida, enfocada y motivada a aprender de cada experiencia, buscando siempre el crecimiento continuo. Para lograr buenos objetivos, ya sean colectivos o individuales, creo que el trabajo en equipo y la comunicación efectiva son esenciales. Me esfuerzo por mantener una actitud positiva y construir relaciones basadas en la confianza y el respeto."
+  items:
+    - title: "Trabajo en equipo"
+    - title: "Responsabilidad y organización"
+    - title: "Comunicación"
+    - title: "Resolución de problemas"
+    - title: "Conocimientos técnicos"
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Sobre mis habilidades"
+    URL: "https://vdc-wq.github.io/HV.github.io/"
+
+# education
+education:
+  enable: true
+  title: "EDUCACIÓN"
+  items:
+    - university: "Primaria"
+      year: "2012-2016"
+      degree: "I.E.D. Jackeline Kennedy Sede 4"
+
+    - university: "Bachiller"
+      year: "2017-2022"
+      degree: "I.E.D. Liceo Samario"
+      
+    - university: "Fundamentos De Programación y Tecnologias Digitales"
+      year: "2022"
+      degree: "Universidad Tecnologica De Pereira"
+
+
+
+# Client & Work
+client_and_work:
+  title: "PORTAFOLIO"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "GREEN L"
+      description: "Fue un proyecto autosustentable que se basaba en la reconstrucción de la flora y la fauna de la institución educativa distrital Liceo Samario."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Más sobre Green L"
+        URL: "https://sites.google.com/view/green-li/inicio"
+      image:
+        x: "img/works/GreenL.jpg"
+        _2x: "img/works/GreenL.jpg"
+      is_even: true
+
+    - title: "VINO STELLATO"
+      description: "Fue un proyecto que buscó darle un valor agregado a esta fruta tropical exótica (el torombolo) y convertirla en una alternativa económica para los productores."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Más sobre Vino Stellato"
+        URL: "https://vdc-wq.github.io/VS.qithub.io/"
+      image:
+        x: "img/works/vino.jpg"
+        _2x: "img/works/vino.jpg"
+      is_even: false
+
+# testimonial
+testimonial:
+  enable: true
+  title: "OBJETIVOS PROFESIONALES"
+  items:
+  
+    - name: ""
+      position: ""      
+      content: "Mis objetivos profesionales en el ámbito de la Ingeniería Industrial se centran en aprovechar el potencial de la tecnología avanzada y el análisis de datos para optimizar procesos y fomentar la eficiencia en el sector industrial."
+      image:
+        x: "img/testimonials/Mariposa.jpg"
+        _2x: "img/testimonials/Mariposa.jpg"
+        
+    - name: ""
+      position: ""
+      content: "Aspiro a implementar soluciones digitales innovadoras que transformen el entorno laboral, minimizando el desperdicio de recursos y promoviendo prácticas sostenibles que beneficien tanto a las organizaciones como al medio ambiente."
+      image:
+        x: "img/testimonials/Mariposa.jpg"
+        _2x: "img/testimonials/Mariposa.jpg"
+
+    
+
+    - name: ""
+      position: ""
+      content: "Mi visión es liderar proyectos de transformación digital que faciliten una toma de decisiones más precisa y oportuna, impulsando una cultura de mejora continua y adaptabilidad. Asimismo, me enfoco en diseñar soluciones personalizadas y adaptadas a las necesidades particulares de cada proyecto, con el fin de contribuir a la competitividad y a la creación de valor en entornos industriales cada vez más exigentes y dinámicos."
+      image:
+        x: "img/testimonials/Mariposa.jpg"
+        _2x: "img/testimonials/Mariposa.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "CONTACTO VALERIA"
+  image:
+    x: "img/who-am-i/Soyyo.jpg"
+    _2x: "img/who-am-i/Soyyo.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Enviar Mensaje"
+    btnAction: 'mailto:devansvj8@gmail.com'
+    
+  phone:
+    title: "Celular"
+    number: "324 434 7065"
+  email:
+    title: "Email"
+    email: '<a href="mailto:devansvj8@gmail.com">devansvj8@gmail.com</a>'
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
